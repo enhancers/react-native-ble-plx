@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.version      = package['version']
   s.summary      = "React Native Bluetooth Low Energy library"
 
-  s.authors      = { "Enhancers" => "" }
+  s.authors      = { "Enhancers" => "Enhancers" }
   s.homepage     = "https://github.com/enhancers/react-native-ble-plx#readme"
   s.license      = "Apache License 2.0"
   s.platform     = :ios, "8.0"
@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.compiler_flags = '-DMULTIPLATFORM_BLE_ADAPTER'
 
   s.dependency 'React-Core'
-  s.dependency 'MultiplatformBleAdapter', '0.1.9.1'
+  s.dependency 'MultiplatformBleAdapter', '0.1.9'
 end
